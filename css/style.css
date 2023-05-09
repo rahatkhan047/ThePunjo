@@ -1,0 +1,993 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    padding: 0;
+    margin: 0;
+}
+
+.h1_style_main_span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #f39c12;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.h1_style_span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #f39c12;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Header part start here */
+header{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+header .nav_color{
+    background-color: rgb(0,0,0,.5);
+}
+
+/* search_767 */
+.search_767{
+    border: none;
+    width: 160px;
+    padding: 2px 2px;
+    height: 35px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    display: none;
+    margin-right: 20px;
+}
+
+.search_767 input {
+    height: 100%;
+    width: 80%;
+    background: none;
+    text-transform: none;
+    font-size: 15px;
+    outline: none;
+    color: var(--black);
+    padding: 0 10px;
+    border: none;
+}
+
+.search_767 .search_767_i {
+    width: 20%;
+    background-color: #f39c12;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* search_767 */
+#toggle {
+    width: 28px;
+    margin: auto;
+}
+  
+#toggle div {
+    width: 100%;
+    height: 3px;
+    background: white;
+    margin: 5px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+  
+#toggle.on .one {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+  
+#toggle.on .two {
+    opacity: 0;
+}
+
+#toggle.on .three {
+    transform: rotate(-45deg) translate(7px, -8px);
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand img{
+
+}
+
+.navbar-brand span{
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f39c12;
+}
+
+.nav-link{
+    transition: .4s all ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding: 8px 13px !important;
+}
+
+.nav-link:hover{
+    color: #f39c12;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -14px;
+    width: 0%;
+    height: 3px;
+    background-color: #f39c12;
+    transition: .4s all ease-in-out;
+}
+.nav-link.active::before{
+    width: 90%;
+}
+.nav-link:hover::before{
+    width: 90%;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #f39c12;
+}
+
+header .serach-form{
+    border: none;
+    position: absolute;
+    top: 115%;
+    right: 11%;
+    width: 13rem;
+    padding: 2px 2px;
+    height: 45px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    opacity: 0;
+}
+
+header .serach-form.active{
+    opacity: 1;
+    transition: .4s linear;
+}
+
+header .serach-form input{
+    height: 100%;
+    width: 80%;
+    background: none;
+    text-transform: none;
+    font-size: 15px;
+    outline: none;
+    color: var(--black);
+    padding: 0 10px;
+    border: none;
+}
+
+header .serach-form label{
+    width: 20%;
+    background-color: #f39c12;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header part end here */
+/* Banner part start here */
+.banner{
+    min-height: 91vh;
+    align-items: center;
+}
+
+.banner span{
+    display: block;
+    color: #f39c12;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.banner h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner .owl-nav .owl-prev{
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 30px;
+    height: 30px;
+    background: #212121 !important;
+    color: #fff !important;
+}
+
+.banner .owl-nav .owl-next{
+    position: absolute;
+    top: 0;
+    right: -15%;
+    height: 30px;
+    width: 30px;
+    background: #212121 !important;
+    color: #fff !important;
+}
+
+.banner button{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    margin: 65px 15px 0px 15px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .4s all ease-in-out;
+}
+
+.banner button:hover{
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+}
+/* Banner part end here */
+/* About me Section Start */
+.about_me{
+    margin-top: 60px;
+}
+
+.about_img{
+    padding: 0;
+}
+
+.about_img img{
+    height: 100%;
+}
+
+.about_me h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.h1_about_main_span{
+    display: block;
+    width: 60%;
+    height: 1px;
+    background-color: #f39c12;
+    margin-bottom: 70px !important;
+    position: relative;
+    margin: auto;
+}
+
+.h1_about_span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #f39c12;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_me p{
+    font-size: 14px;
+    margin: 0px 50px 80px;
+}
+
+.my_skills{
+    margin: 0 50px;
+}
+
+.skills{
+    width: 100%;
+}
+
+.skill{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill_name{
+    margin-bottom: 12px;
+}
+
+.Skill-php{
+    margin: 0;
+}
+
+.skill-bar{
+    height: 20px;
+    background: gray;
+}
+
+.skill-per{
+    height: 20px;
+    background-color: #f39c12;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f39c12;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+  /* About me Section End */
+  /* MY service section Start */
+.my-service{
+    padding: 80px 0px;
+}
+
+.my-service h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.service_item{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    transition: .5s all ease-in-out;
+}
+
+.service_item:hover{
+    background-color: #f39c12;
+    border-top: 1px solid #fdefd9;
+    border-left: #FFF;
+}
+
+.service_item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+    transition: .5s all ease-in-out;
+}
+
+.service_item:hover::before{
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #f39c12;
+    border-left: 2px solid #f39c12;
+}
+
+.service_item:hover .service_item_icon{
+    color: #f39c12;
+    background-color: #fff;
+}
+
+.service_item:hover h1{
+    color: #fff;
+}
+
+.service_item:hover p{
+    color: #fff;
+}
+
+.service_item .service_item_icon{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background: #919190;
+    border-radius: 50px;
+    color: #fff;
+    margin: auto;
+    transition: .5s all ease-in-out;
+}
+
+.service_item h1{
+    font-size: 20px;
+    color: #6e6e6e;
+    margin: 30px 0px;
+    transition: .5s all ease-in-out;
+}
+
+.service_item p{
+    color: #6e6e6e;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: .5s all ease-in-out;
+}
+
+.service_style{
+    display: block;
+    width: 149px;
+    height: 100px;
+    background-color: #FFF;
+    position: absolute;
+    top: -38px;
+    left: -87px;
+    rotate: 135deg;
+}
+  /* MY service section End */
+  /* MY statistic Section Start */
+.my_statistic{
+    background-image: url(../images/my_statistic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    padding: 80px 0px;
+}
+
+.my_statistic h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.my_statistic .h1_style_main_span{
+    margin-bottom: 20px;
+}
+
+.counter h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.my_statistic_icon{
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my_statistic_icon i{
+    font-size: 24px;
+    color: #f39c12;
+    line-height: 70px;
+}
+
+.my_statistic_item h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.my_statistic_item span{
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: #fff;
+    margin: auto;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    z-index: -1;
+}
+/* MY statistic Section End */
+/* My work part start here */
+.my_work{
+    padding: 80px 0px;
+}
+
+.my_work h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.my_work ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my_work ul li{
+
+}
+
+.my_work ul li button{
+    border: none;
+    background-color: #fff;
+    color: #565656;
+    padding: 5px 10px;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+}
+
+.my_work ul li button:hover{
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* My work part end here */
+/* Recent story part start here */
+.recent_story{
+    padding: 80px 0px 100px;
+}
+
+.recent_story .recent_story_border{
+    border: 1px solid #f0f0f0;
+    display: flex;
+}
+
+.recent_story_content{
+    width: 60%;
+    padding: 5px 15px;
+}
+
+.recent_story_img{
+    width: 40%;
+}
+
+.recent_story h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.recent_story small{
+    font-family: 'Raleway', sans-serif;
+    color: #7e7d7d;
+    font-size: 13px;
+}
+
+.recent_story h6{
+    color: #f39c12;
+    font-size: 14px;
+}
+
+.recent_story p{
+    color: #858282;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 18px;
+}
+
+.recent_story button{
+    font-size: 12px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    padding: 4px 8px;
+    margin-top: 7px;
+}
+
+.recent_story button:hover{
+    background-color: #aaaaaa;
+}
+
+.recent_story .owl-carousel .owl-dots{
+    display: inherit;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recent_story .owl-carousel .owl-dots span{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #b7b7b7;
+    margin: 0px 2px;
+}
+
+.recent_story .owl-carousel .owl-dots button.active span{
+    background-color: #414141;
+}
+/* Recent story part end here */
+/* Life changeing story part start here */
+.life_changeing_story{
+    background-color: #262626;
+    padding: 50px 0px;
+}
+
+.life_changeing_story img{
+    width: 95%;
+    margin-left: auto;
+    padding-right: 15px;
+    display: block;
+}
+
+.life_changeing_story h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.life_changeing_story .h1_style_main_span{
+    margin-bottom: 30px;
+}
+
+.life_changeing_story p{
+    color: #bfbfbf;
+    margin-top: 20px;
+}
+/* Life changeing story part end here */
+/* Clients feedback part start here */
+.clients_feedback{
+    padding: 80px 0px 100px;
+}
+
+.clients_feedback h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.clients_feedback .clients_feedback_messege{
+    background-color: #f6f6f6;
+    position: relative;
+    padding: 20px 15px;
+}
+
+.clients_feedback .clients_feedback_messege h6{
+    font-size: 14px;
+    color: #696868;
+    margin-bottom: 10px;
+}
+
+.clients_feedback .clients_feedback_messege p{
+    font-size: 13px;
+    color: #838282;
+}
+
+.clients_feedback .clients_feedback_messege span{
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #f6f6f6;
+    bottom: -12.5px;
+    left: 60px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.clients_feedback .clients_feedback_client{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.clients_feedback .clients_feedback_client img{
+    margin-right: 15px;
+    width: 70px;
+}
+
+.clients_feedback .owl-carousel .owl-item img{
+    width: 70px;
+}
+
+.clients_feedback .clients_feedback_client b{
+    display: block;
+    color: #f39c12;
+    font-size: 14px;
+}
+
+.clients_feedback .clients_feedback_client i{
+    color: #696868;
+    font-size: 14px;
+}
+
+.clients_feedback .owl-carousel .owl-dots{
+    display: inherit;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.clients_feedback .owl-carousel .owl-dots span{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #b7b7b7;
+    margin: 0px 2px;
+}
+
+.clients_feedback .owl-carousel .owl-dots button.active span{
+    background-color: #414141;
+}
+/* Clients feedback part end here */
+/* Leatest tweet part start here */
+.latest_tweet{
+    background-image: url(../images/leatest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
+
+.latest_tweet h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.latest_tweet .h1_style_main_span{
+    margin-bottom: 60px;
+}
+
+.latest_tweet p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.latest_tweet p span{
+    color: #f39c12;
+}
+
+/* Leatest tweet part end here */
+/* Get in touch part start here */
+.get_in_touch{
+    padding: 80px 0px;
+}
+
+.get_in_touch h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.get_in_touch .h1_style_main_span{
+    margin-bottom: 30px;
+}
+
+.get_in_touch p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #838282;
+}
+
+.get_in_touch label{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.get_in_touch input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    outline: none;
+}
+
+.get_in_touch textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    outline: none;
+    height: 80px;
+    resize: none;
+}
+
+.get_in_touch button{
+    background-color: #f39c12;
+    color: #fff;
+    border: 1px solid #f39c12;
+    transition: .2s all ease-in;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.get_in_touch button:hover{
+    background-color: #fff;
+    color: #f39c12;
+}
+/* Get in touch part end here */
+/* Map part start here */
+.map{
+    position: relative;
+}
+
+.map iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.map .map_address{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    padding: 30px 20px;
+    background-color: #f39c12;
+    opacity: .8;
+    top: 50%;
+    left: 65%;
+    transform: translateY(-50%);
+}
+
+.map .map_address b{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.map .map_address p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.map .map_address .map_address_space{
+    margin-top: 25px;
+}
+/* Map part end here */
+/* Follow me part start here */
+.follow_me{
+    padding: 80px 0px;
+}
+
+.follow_me h1{
+    color: #3b3b3b;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.follow_me ul{
+    display: flex;
+    justify-content: center;
+}
+
+.follow_me ul li{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    margin: 0px 5px;
+    transition: .4s all ease-in-out;
+}
+
+.follow_me ul li a{
+    color: #f39c12;
+    font-size: 14px;
+    line-height: 25px;
+    transition: .4s all ease-in-out;
+}
+
+.follow_me ul li:hover{
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+.follow_me ul li:hover a{
+    color: #fff;
+}
+
+/* Follow me part end here */
+/* Footer part start here */
+footer{
+    background-color: #f39c12;
+    padding: 25px 0px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+footer p span{
+    display: block;
+    color: #fff;
+    margin: 0px 3px;
+}
+/* Footer part end here */

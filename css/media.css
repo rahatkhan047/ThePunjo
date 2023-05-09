@@ -1,0 +1,594 @@
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media(max-width: 767px){
+    .search_767{
+        display: flex;
+    }
+
+    .h1_style_main_span{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: none;
+    }
+
+    .navbar-nav{
+        align-items: center;
+    }
+
+    .nav-link::before{
+        display: none;
+    }
+
+    .search_one{
+        display: none;
+    }
+
+    .my-work img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .life_changeing_story img {
+        width: 92%;
+        margin: auto;
+        display: block;
+        padding: 0;
+    }
+
+    .life_changeing_story h1 {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .life_changeing_story p {
+        padding: 0px 25px;
+    }
+
+    .clients_feedback_padding{
+        padding: 0px 24px;
+    }
+
+    .get_in_touch_padding {
+        padding: 0px 16px;
+    }
+
+    .map .map_address {
+        width: 230px;
+        height: 230px;
+        left: 63%;
+    }
+}
+
+@media(max-width: 575px){
+
+    .h1_style_main_span{
+        width: 60%;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .banner span{
+        font-size: 30px;
+        margin-right: 50px;
+    }
+
+    .banner h1{
+        font-size: 30px;
+        margin-right: 50px;
+        font-weight: 500;
+    }
+    
+    .banner .owl-nav .owl-prev{
+        top: -7px;
+        left: -17px;
+    }
+    
+    .banner .owl-nav .owl-next{
+        top: -7px;
+        right: -17px;
+    }
+
+    .banner button{
+        margin: 40px 5px 0px 5px;
+        padding: 5px 15px;
+    }
+
+    .my_statistic .h1_style_main_span{
+        margin-bottom: 10px;
+    }
+
+    .my_statistic_item span {
+        display: none;
+    }
+
+    .recent_story .h1_style_main_span{
+        margin-bottom: 50px;
+    }
+
+    .life_changeing_story img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .life_changeing_story h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .life_changeing_story .h1_style_main_span{
+        width: 75%;
+    }
+
+    .clients_feedback .h1_style_main_span{
+        margin-bottom: 50px;
+    }
+
+    .clients_feedback .owl-carousel .owl-dots{
+        bottom: -40px;
+    }
+
+    .map .map_address{
+        top: 46%;
+        left: 56.5%;
+    }
+}
+
+@media(max-width: 425px){
+
+    .search_767 {
+        width: 130px;
+        height: 32px;
+        border-radius: 2px;
+    }
+
+    .search_767 input{
+        padding-left: 5px;
+    }
+
+    .h1_style_main_span {
+        margin-bottom: 50px;
+    }
+
+    .banner span{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .banner h1{
+        font-size: 20px;
+    }
+
+    .banner .owl-nav .owl-prev{
+        top: -15px;
+    }
+    
+    .banner .owl-nav .owl-next{
+        top: -15px;
+    }
+
+    .banner button{
+        margin: 25px 5px -10px 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .about_me{
+        margin-top: 10px;
+    }
+
+    .about_me h1{
+        font-size: 28px;
+        margin-bottom: 8px;
+
+    }
+
+    .h1_about_main_span{
+        margin-bottom: 40px !important;
+    }
+
+    .about_me p{
+        margin: 0px 50px 45px;
+    }
+
+    .skill_name{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .skill-bar{
+        height: 15px;
+    }
+
+    .skill-per{
+        height: 15px;
+    }
+
+    .my-service {
+        padding: 40px 0px;
+    }
+
+    .my-service h1{
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .my-service .service_item h1{
+        font-size: 24px;
+    }
+
+    .my_statistic {
+        z-index: 0;
+        padding: 40px 0px;
+    }
+
+    .my_statistic h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .my_work {
+        padding: 40px 0px;
+    }
+
+    .my_work h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .my_work_425_margin{
+        margin-bottom: 15px !important;
+    }
+
+    .my_work ul li button {
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+
+    .my_work ul li button:hover {
+        font-size: 14px;
+    }
+
+    .recent_story {
+        padding: 40px 0px 80px;
+    }
+
+    .recent_story h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .recent_story_content {
+        padding: 10px 15px;
+    }
+
+    .recent_story button {
+        margin-top: 12px;
+    }
+
+    .life_changeing_story {
+        padding: 35px 0px;
+    }
+
+    .life_changeing_story h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .life_changeing_story p {
+        padding: 0px 20px;
+    }
+
+    .life_changeing_story .h1_style_main_span {
+        width: 85%;
+    }
+
+    .clients_feedback {
+        padding: 40px 0px 80px;
+    }
+
+    .clients_feedback h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .clients_feedback .h1_style_main_span {
+        margin-bottom: 35px;
+        width: 80%;
+    }
+
+    .latest_tweet h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .get_in_touch {
+        padding: 40px 0px;
+    }
+
+    .get_in_touch h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .get_in_touch p {
+        margin-bottom: 20px;
+    }
+
+    .get_in_touch button {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+
+    .map iframe {
+        height: 400px;
+    }
+
+    .map .map_address{
+        width: 185px;
+        height: 200px;
+        padding: 15px 12px;
+    }
+
+    .map .map_address .map_address_space{
+        margin-top: 15px;
+    }
+
+    .map .map_address b{
+        font-size: 14px;
+    }
+
+    .map .map_address p{
+        font-size: 14px;
+    }
+
+    .follow_me h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .follow_me {
+        padding: 40px 0px;
+    }
+
+    footer {
+        padding: 10px 0px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 375px){
+
+    .search_767 {
+        width: 113px;
+        height: 32px;
+        border-radius: 2px;
+        margin: 0;
+    }
+
+    .search_767 input{
+        width: 75%;
+    }
+
+    .search_767 .search_767_i {
+        width: 25%;
+    }
+    .my-service .service_item h1{
+        font-size: 20px;
+    }
+
+    .service_item p{
+        font-size: 14px;
+    }
+
+    .my_work {
+        padding: 40px 0px 0px;
+    }
+
+    .my_work ul li button {
+        font-size: 13px;
+    }
+
+    .my_work ul li button:hover {
+        font-size: 13px;
+    }
+
+    .recent_story {
+        padding: 30px 0px 80px;
+    }
+
+    .recent_story small {
+        font-size: 11px;
+        display: block;
+    }
+
+    .recent_story p {
+        margin-top: 2px;
+    }
+
+    .recent_story button {
+        margin-top: 11px;
+    }
+
+    .latest_tweet p {
+        font-size: 13px;
+    }
+
+    .map .map_address{
+        width: 180px;
+    }
+
+    .map .map_address{
+        left: 52%;
+    }
+}
+
+@media(max-width: 320px){
+
+    .navbar-brand {
+        width: 92px;
+        margin: 0;
+    }
+
+    .navbar-brand img {
+        width: 90% !important;
+    }
+
+    .search_767 .search_767_i{
+        font-size: 14px;
+    }
+
+    .banner button {
+        padding: 5px 8px;
+        font-size: 13px;
+    }
+
+    .about_me p {
+        margin: 0px 10px 40px;
+    }
+
+    .about_me h1 {
+        font-size: 24px;
+    }
+
+    .my_skills {
+        margin: 0 10px;
+    }    
+
+    .my-service h1 {
+        font-size: 24px;
+    }
+
+    .my-service .service_item h1 {
+        font-size: 18px;
+    }
+
+    .my_statistic h1 {
+        font-size: 24px;
+    }
+
+    .counter h2 {
+        font-size: 25px;
+    }
+
+    .my_statistic_icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .my_statistic_icon i {
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .my_work {
+        padding: 40px 0px 20px;
+    }
+
+    .my_work h1 {
+        font-size: 24px;
+    }
+
+    .my_work ul li button {
+        font-size: 10px;
+    }
+
+    .my_work ul li button:hover {
+        font-size: 10px;
+    }
+
+    .recent_story {
+        padding: 20px 0px 60px;
+    }
+
+    .recent_story h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .recent_story_content {
+        padding: 5px 5px;
+    }
+
+    .recent_story small {
+        font-size: 10px;
+    }
+
+    .recent_story p {
+        font-size: 11px;
+        margin-top: 3px;
+        line-height: 14px;
+    }
+
+    .recent_story button {
+        margin-top: 11px;
+    }
+
+    .recent_story .owl-carousel .owl-dots {
+        bottom: -40px;
+    }
+
+    .recent_story .owl-carousel .owl-dots span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .life_changeing_story h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .life_changeing_story .h1_style_main_span {
+        width: 95%;
+    }
+
+    .clients_feedback h1 {
+        font-size: 24px;
+    }
+
+    .clients_feedback .owl-carousel .owl-dots span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .latest_tweet h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .latest_tweet p {
+        font-size: 10px;
+    }
+
+    .get_in_touch h1 {
+        font-size: 24px;
+    }
+
+    .follow_me h1 {
+        font-size: 24px;
+    }
+        
+    .map .map_address {
+        left: 43.6%;
+        height: 180px;
+    }
+
+    .map .map_address .map_address_space {
+        margin-top: 5px;
+    }
+}
